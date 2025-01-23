@@ -2,6 +2,13 @@
 
 ## Installation
 
+
+Install [homebrew](https://brew.sh/) if you don't already have it, then:
+```shell
+$ brew install git
+```
+
+
 ```shell
 cd `/the/folder/where/you/want/to/save/this/project`
 ```
@@ -13,13 +20,22 @@ git clone https://github.com/jeffhaskin/klingAPI-videoLipSycn.git
 
 
 ```shell
+cd klingAPI-videoLipSycn
+```
+
+
+```shell
 pip install requests pyjwt
 ```
 
 ## Usage
 
 ### Full Pipeline
-The scripts can be used on one program to run the full `image --> video --> lip synced video` process all in one command:
+
+1. Specify the starting image and song using the config file.
+
+
+2. The scripts can be used on one program to run the full `image --> video --> lip synced video` process all in one command:
 
 ```bash
 python main.py
