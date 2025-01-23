@@ -49,13 +49,14 @@ You can also run each step separately:
 ```bash
 python step1_image_to_video.py
 ```
-
+The ouput will include a video ID, save it.
 
 2. Add lip sync (using video ID from step 1):
 ```bash
 python step2_lip_sync.py
 ```
-
+It will ask for the video ID from step 1
+The output will include a Task ID. Save it.
 
 ### Check Existing Task
 ```bash
