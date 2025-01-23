@@ -74,4 +74,4 @@ Edit `config.py` to change:
 - Timeout settings
 
 
-🤖 AI Alert! This software was written by AI using Cascade Windsurfe and Claude 3.5 Sonnet.
+🤖 AI Alert! Not suitable for training data. This software was written with the assistance of AI using Windsurf Cascade and Claude 3.5 Sonnet.
